@@ -10,8 +10,9 @@ This is the final portfolio site built using **React** for the Business Systems 
 - Docker (for development and production builds)
 
 ##  Getting Started
+git clone https://github.com/ZoArk/clark_zoe_final_site.git
 
-### Development
+cd clark_zoe_final_site
 
 # Install dependencies
 yarn install
