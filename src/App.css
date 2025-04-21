@@ -36,3 +36,59 @@
     transform: rotate(360deg);
   }
 }
+
+/* Navbar styles */
+.navbar {
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1D4ED8; /* Tailwind Blue 600 */
+  text-decoration: none;
+}
+
+.navbar-right {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-link {
+  font-size: 16px;
+  color: #4B5563; /* Tailwind Gray 700 */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar-link:hover {
+  color: #1D4ED8; /* Tailwind Blue 600 */
+  cursor: pointer;
+}
+
+.navbar-link:focus {
+  outline: 2px solid #1D4ED8; /* Blue focus ring */
+  outline-offset: 2px;
+}

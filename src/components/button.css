@@ -1,0 +1,31 @@
+/* button.css */
+.storybook-button {
+  display: inline-block;
+  padding: 8px 16px;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none; /* Remove underline for links */
+}
+
+.storybook-button--primary {
+  background-color: #1D4ED8; /* Blue */
+  color: white;
+}
+
+.storybook-button--secondary {
+  background-color: transparent;
+  color: #1D4ED8; /* Blue */
+  border-color: #1D4ED8;
+}
+
+.storybook-button:hover {
+  background-color: #2563EB; /* Darker blue on hover */
+}
+
+.storybook-button:focus {
+  outline: 2px solid #2563EB; /* Focus ring */
+  outline-offset: 2px;
+}
